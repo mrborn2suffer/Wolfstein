@@ -12,7 +12,6 @@ public class Screen {
 
     public void clear() {
         for (int i = 0; i < pixels.length; i++) {
-            // Top half is dark grey (ceiling), bottom is light grey (floor)
             if (i < pixels.length / 2) {
                 pixels[i] = 0x333333; 
             } else {
